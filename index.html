@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------ font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Analytic Chart</title>
+    <link rel="stylesheet" href="chart.css" />
+    <link rel="icon" type="image/svg" href="Assets/Icons/logo.svg" />
+  </head>
+  <body>
+    <header class="nav-bar">
+      <div class="container">
+        <a href="index.html" aria-label="logo"
+          ><img src="Assets/Icons/logo.svg" alt="logo"
+        /></a>
+        <!---Primary nav -->
+        <div class="general_navs">
+          <nav class="primary_navs">
+            <a href="#" aria-labelledby="dashboard"
+              ><img src="Assets/Icons/dashboard.svg" alt="Dashboard icon"
+            /></a>
+            <a href="#" aria-labelledby="trend"
+              ><img src="Assets/Icons/trend_up.svg" alt="trend icon"
+            /></a>
+            <a href="#" aria-labelledby="user_profile"
+              ><img src="Assets/Icons/profile_2user.svg" alt="profile icon"
+            /></a>
+            <a href="#" aria-labelledby="box"
+              ><img src="Assets/Icons/box.svg" alt="box icon"
+            /></a>
+            <a href="#" aria-labelledby="discount"
+              ><img src="Assets/Icons/discount_shape.svg" alt="discount icon"
+            /></a>
+            <a href="#" aria-labelledby="info"
+              ><img src="Assets/Icons/info_circle.svg" alt="info icon"
+            /></a>
+            <div class="theme_color">
+              <button
+                type="button"
+                aria-labelledby="light theme"
+                aria-current="true"
+              >
+                <img
+                  src="Assets/Icons/brightness_1.svg"
+                  alt="brightness icon"
+                />
+              </button>
+              <button type="button" aria-labelledby="dark theme">
+                <img src="Assets/Icons/moon_1.svg" alt="moon icon" />
+              </button>
+            </div>
+          </nav>
+          <!--- Secondary nav -->
+          <nav class="secondary_navs">
+            <a href="#" aria-labelledby="next navigation"
+              ><img src="Assets/Icons/arrow_right.svg" alt="arrow right icon"
+            /></a>
+            <a href="#" aria-labelledby="setting"
+              ><img src="Assets/Icons/setting_2.svg" alt="setting"
+            /></a>
+            <a href="#" aria-labelledby="log out"
+              ><img src="Assets/Icons/logout.svg" alt="logout"
+            /></a>
+          </nav>
+          <div class="burger" aria-label="burger menu"></div>
+          <span class="burger_line"></span>
+          <span class="burger_line"></span>
+          <span class="burger_line"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-------- main section ---->
+
+    <main>
+      <header>
+        <h1>Dashboard</h1>
+        <div class="navigations">
+          <input type="text" placeholder="Search..." class="search" />
+          <div class="date">
+            <img src="Assets/Icons/solar_calendar.svg" alt="Calender icon" />
+            <p class="todays_date">February 26, 2024</p>
+          </div>
+          <img
+            src="Assets/Icons/solar_bell.svg"
+            alt="notification icon"
+            class="bell"
+          />
+          <div class="user_profile">
+            <img src="Assets/Pics/Dp-modified.png" alt="user pic" />
+            <span>
+              <p>Prince Vick</p>
+              <p class="user_email">itsprince@gmail.com</p>
+            </span>
+            <img src="Assets/Icons/arrow_down2.svg" alt="" class="arrow_down" />
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
+</html>

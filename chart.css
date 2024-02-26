@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  background-color: #fafafa;
+}
+
+/*
+================
+primary nav
+================
+*/
+.nav-bar {
+  display: block;
+  width: 5rem;
+}
+.container {
+  position: sticky;
+  left: 0;
+  top: 0;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #f7f8fa;
+  border-right: 1px solid #ebecf2;
+}
+/*
+==========
+nav img sizing
+==========
+*/
+nav a img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+nav .theme_color img {
+  height: 1.875rem;
+  width: 1.875rem;
+  padding: 0.2rem;
+}
+
+.general_navs {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.primary_navs,
+.secondary_navs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+  align-items: center;
+}
+nav .theme_color {
+  display: flex;
+  flex-direction: column;
+  width: 2.875rem;
+  height: 5.75rem;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 100vh;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 0;
+}
+
+.theme_color button {
+  height: 1.875rem;
+  width: 1.875rem;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.theme_color button[aria-current="true"] {
+  background: #34caa5;
+}
+
+/*
+================
+main section
+================
+*/
+main {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+}
+
+/*
+================
+main header
+================
+*/
+main header {
+  display: flex;
+  height: 6rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ebecf2;
+  justify-content: space-between;
+  align-items: center;
+}
+main header h1 {
+  margin: auto 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  opacity: 0.75;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navigations {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigations input {
+  height: 3rem;
+  width: 21rem;
+  background: #ffffff;
+  border: 1px solid #dadddd;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #a3a3a3;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.date p {
+  width: 9rem;
+}
+.bell {
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 1px solid #dadddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.user_profile {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadddd;
+  border-radius: 2rem;
+  gap: 1rem;
+  padding: 0.5rem;
+  text-align: end;
+}
+.user_profile img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.user_profile .user_email {
+  font-size: 0.87rem;
+  color: #787486;
+}
+.navigations .arrow_down {
+  height: 1.25rem;
+  width: 1.25rem;
+  cursor: pointer;
+}

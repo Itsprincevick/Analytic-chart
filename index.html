@@ -80,7 +80,7 @@
     <!-------- main section ---->
 
     <main>
-      <header>
+      <section>
         <h1>Dashboard</h1>
         <div class="navigations">
           <input type="text" placeholder="Search..." class="search" />
@@ -94,7 +94,7 @@
             class="bell"
           />
           <div class="user_profile">
-            <img src="Assets/Pics/Dp-modified.png" alt="user pic" />
+            <img src="Assets/Pics/Dp-modified.png" alt="user pic" width="48px" height="48px"/>
             <span>
               <p>Prince Vick</p>
               <p class="user_email">itsprince@gmail.com</p>
@@ -102,7 +102,27 @@
             <img src="Assets/Icons/arrow_down2.svg" alt="" class="arrow_down" />
           </div>
         </div>
-      </header>
+      </section>
+
+      <section class="sales-container">
+        <div class="chart-container">
+          <header class="chart-title">
+            <h3>Sales Trends...</h3>
+            <span>
+              <p>Sort by:</p>
+              <button>
+                <select name="sort-chart" id="sort-chart" title="sort-chart">
+                  <option value="Yearly">Yearly</option>
+                  <option value="Weekly" selected>Weekly</option>
+                  <option value="Monthly">Monthly</option>
+
+                <img src="Assets/Icons/arrow_down2.svg" alt="arrow down">
+              </button>
+            </span>
+          </header>
+          
+        </div>
+      </section>
     </main>
   </body>
 </html>
